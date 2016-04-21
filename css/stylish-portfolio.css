@@ -16,6 +16,15 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+@font-face {
+    font-family: SFNS;
+    src: url(../font-awesome/fonts/9767.ttf);
+}
+
+.title-sp{
+    font-family: SFNS;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -23,10 +32,10 @@ body {
 }
 
 .text-vertical-center h1 {
-    color:#0E294B;
+    color:#003366;
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 6em;
     font-weight: 700;
 }
 
@@ -251,3 +260,13 @@ footer {
 .title {
     margin-top: 50px;
 }
+
+.link {
+    color:white;
+    text-decoration:underline;
+}
+
+.link:hover{
+    color:#80DAEB;
+}
+
