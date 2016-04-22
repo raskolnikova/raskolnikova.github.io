@@ -12,16 +12,14 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
 @font-face {
     font-family: SFNS;
-    src: url(../font-awesome/fonts/9767.ttf);
+    src: url(../font-awesome/fonts/9654.ttf);
+    )
 }
 
-.title-sp{
+
+body {
     font-family: SFNS;
 }
 
