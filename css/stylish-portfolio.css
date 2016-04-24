@@ -13,14 +13,20 @@ body {
 }
 
 @font-face {
-    font-family: SFNS;
-    src: url(../font-awesome/fonts/9654.ttf);
+    font-family: font_header;
+    src: url(../font-awesome/fonts/9.ttf);
+)
+}
+
+@font-face {
+    font-family: font_body;
+    src: url(../font-awesome/fonts/5.ttf);
     )
 }
 
 
 body {
-    font-family: SFNS;
+    font-family: font_body;
 }
 
 .text-vertical-center {
@@ -30,10 +36,11 @@ body {
 }
 
 .text-vertical-center h1 {
-    color:#003366;
+    font-family: font_header;
+    color:#f7f7f7;
     margin: 0;
     padding: 0;
-    font-size: 6em;
+    font-size: 5.5em;
     font-weight: 700;
 }
 
@@ -167,13 +174,13 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/it.png) no-repeat center center scroll;
+    background: url(../img/it-2.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
 }
+
 
 /* About */
 
@@ -252,7 +259,7 @@ footer {
 }
 
 .lead{
-    font-size:12pt;
+    font-size:14pt;
 }
 
 .title {
