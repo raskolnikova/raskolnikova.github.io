@@ -275,3 +275,29 @@ footer {
     color:#80DAEB;
 }
 
+.task {
+    font-size: 14pt;
+}
+
+.title-test {
+    font-family: font_header;
+    color:#f7f7f7;
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.img-backg{
+ background: url(../img/callout.jpg) no-repeat center center scroll;
+  width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.font-btn{
+     font-family: font_body;
+}
